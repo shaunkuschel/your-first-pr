@@ -34,7 +34,7 @@
         // Minimum order amount
         $settings[] = array(
           'title'             => __( 'Minimum order amount', 'woocommerce' ),
-          'desc'              => __( 'Leave this empty if all orders are accepted, otherwise set the minimum order amount <script>alert("SHOW ME THE MONEY!");</script>', 'wc_minimum_order_amount' ),
+          'desc'              => __( 'Leave this empty if all orders are accepted, otherwise set the minimum order amount.', 'wc_minimum_order_amount' ),
           'id'                => 'wc_minimum_order_amount_value',
           'default'           => '',
           'type'              => 'number',
